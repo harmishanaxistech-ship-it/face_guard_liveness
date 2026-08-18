@@ -1,8 +1,8 @@
-name: face_guard_liveness
+name: biocheck
 description: A production-ready Flutter SDK for real-time on-device face liveness detection and face verification using ML Kit and TFLite.
-version: 1.0.4
-repository: https://github.com/harmishanaxistech-ship-it/face_guard_liveness
-homepage: https://github.com/harmishanaxistech-ship-it/face_guard_liveness
+version: 1.0.0
+repository: https://github.com/harmishanaxistech-ship-it/biocheck
+homepage: https://github.com/harmishanaxistech-ship-it/biocheck
 
 environment:
   sdk: '>=3.10.0 <4.0.0'

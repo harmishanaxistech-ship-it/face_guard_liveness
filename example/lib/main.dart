@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:face_guard_liveness/face_guard_liveness.dart';
+import 'package:biocheck/biocheck.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   LivenessResult? _result;
 
   Future<void> _startLiveness() async {
-    final result = await FaceGuardLiveness.startLivenessCheck(
+    final result = await BioCheck.startLivenessCheck(
       context,
       actions: [
         LivenessAction.blink,

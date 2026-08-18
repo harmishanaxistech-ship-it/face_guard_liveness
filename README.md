@@ -1,4 +1,4 @@
-# Face Guard Liveness SDK
+# BioCheck SDK
 
 A production-ready Flutter package for real-time AI-powered face liveness detection and face verification.
 
@@ -17,7 +17,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  face_guard_liveness: ^1.0.0
+  biocheck: ^1.0.0
 ```
 
 ### Android Setup
@@ -41,13 +41,13 @@ dependencies:
 ### Initialize
 
 ```dart
-await FaceGuardLiveness.initialize();
+await BioCheck.initialize();
 ```
 
 ### Start Liveness Check
 
 ```dart
-final result = await FaceGuardLiveness.startLivenessCheck(
+final result = await BioCheck.startLivenessCheck(
   context,
   actions: [
     LivenessAction.blink,
